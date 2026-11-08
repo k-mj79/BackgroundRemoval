@@ -53,3 +53,24 @@ The app will be available at http://localhost:8501 in your web browser.
 ## License
 
 MIT
+
+
+
+# git config --global user.email "nia9011@gmail.com"
+# git config --global user.name "k-mj79"
+
+# $ git config --global user.email "nia9011@gmail.com"
+# $ git config --global user.name "k-mj79"
+# $ git branch -M main
+# $ git remote add origin https://github.com/k-mj79/ai_test.git
+# $ git add .
+# $ git commit -m "first commit"
+# warning: in the working copy of 'requirements.txt', LF will be replaced by CRLF the next time Git touches it
+# git config --global core.autocrlf true
+
+
+# 혹시 남아있을지 모를 기존 깃 기록을 완전히 지웁니다.
+rm -rf .git
+
+# 새롭게 Git 저장소로 시작합니다.
+git init햣
